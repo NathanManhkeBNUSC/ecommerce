@@ -1,0 +1,19 @@
+{
+    "name": "nathanmanhkebnusc/ecommerce",
+    "authors": [
+        {
+            "name": "Nathan Manhke",
+            "email": "nathanmanhke@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer": "^6.8.0",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
